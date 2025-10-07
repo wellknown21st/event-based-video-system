@@ -1,0 +1,40 @@
+"""
+Production Requirements for Event-Based Video Recording System
+Comprehensive dependencies for deployment and development
+"""
+
+# Core video processing
+opencv-python>=4.8.0.76
+numpy>=1.24.0
+
+# Web framework and API
+flask>=2.3.3
+flask-cors>=4.0.0
+flask-limiter>=3.5.0
+
+# Authentication and security
+PyJWT>=2.8.0
+cryptography>=41.0.0
+
+# System monitoring and performance
+psutil>=5.9.5
+
+# Data handling and storage
+sqlite-utils>=3.34
+python-dateutil>=2.8.2
+
+# Development and testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
+black>=23.7.0
+flake8>=6.0.0
+
+# Optional: Real AI model support
+# ultralytics>=8.0.0  # For YOLO models
+# torch>=2.0.0        # For PyTorch models
+# torchvision>=0.15.0 # Computer vision utilities
+# onnxruntime>=1.15.0 # ONNX model inference
+
+# Production deployment
+gunicorn>=21.2.0
+supervisor>=4.2.5
