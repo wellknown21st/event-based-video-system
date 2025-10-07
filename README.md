@@ -329,34 +329,6 @@ LON_RANGE = (-0.01, 0.01)
 - **Cloud storage integration** for scalable video archival
 - **Mobile app interface** for remote monitoring
 
-## 🎬 Demo Video Outline
-
-**Planned demo video content (2-5 minutes):**
-
-1. **System Overview** (30s)
-   - Show project structure and key files
-   - Explain assignment requirements fulfillment
-
-2. **Live System Demo** (90s)  
-   - Start `python main.py`
-   - Show camera feed with live event detection
-   - Demonstrate multiple event types being detected
-   - Show video clips being saved automatically
-
-3. **Web Interface Demo** (60s)
-   - Start Flask server
-   - Browse to web interface
-   - Show event list and metadata
-   - Download and play a saved video clip
-
-4. **Code Walkthrough** (30s)
-   - Quick overview of key components
-   - Highlight mock detection logic
-   - Show video buffering implementation
-
-5. **Technical Explanation** (30s)
-   - Explain design choices and trade-offs
-   - Discuss scalability and future enhancements
 
 ## 🏆 Success Criteria Met
 
